@@ -2,6 +2,8 @@
 /* dependency: output.js */
 /*
 
+demo: http://jsfiddle.net/laughingskull/bh3df3ko/5/
+
 CSS:
 .dice {
     display: inline-block;
