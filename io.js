@@ -79,6 +79,7 @@ var Outputs = {
   },
   out: function(data, tag) {
     $("#" + Outputs.output).append("<" + tag + ">" + data + "</" + tag + ">");
+    $("#QUERY").children().last()[0].scrollIntoView(); //optional
   },
   init: function(id, tip) {
     Outputs.setOutput(id);
