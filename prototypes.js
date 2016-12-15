@@ -133,3 +133,4 @@ String.prototype.padRight = function(LN, fill) {
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.substr(1).toLowerCase();
 };
+////////////////////////end of prototypes.js /////////////////////////
