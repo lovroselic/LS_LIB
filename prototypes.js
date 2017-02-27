@@ -4,7 +4,7 @@
 */
 
 Array.prototype.clear = function() {
-    if (!array)
+    if (!this)
         return false;
     this.splice(0, this.length);
 };
@@ -46,7 +46,7 @@ Array.prototype.average = function() {
 };
 
 Array.prototype.createPool = function(mx, N) {
-    if (!array) return false;
+    if (!this) return false;
     this.clear();
     var tempArray = [];
     for (var ix = 0; ix < mx; ix++) {
